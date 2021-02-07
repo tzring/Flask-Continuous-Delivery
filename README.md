@@ -1,3 +1,5 @@
+![Github Actions Test](https://github.com/tzring/Flask-Continuous-Delivery/workflows/Github%20Actions%20Test/badge.svg)
+
 # Flask-Continuous-Delivery
 This is an implementation of Continuous Delivery of Flask Application on Google Cloud Platform.
 
