@@ -44,5 +44,3 @@ gcloud app deploy
 - **/**: Hello world page
 - **/name/\<value>**: return the name you entered
 - **/cd**: A page used to test continuous delivery
-
-## Demo for Continuous Delivery
