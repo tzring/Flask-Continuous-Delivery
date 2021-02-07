@@ -4,7 +4,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello World! Continuous Delivery Test.'
+    return 'Hello World! This is my first flask app.'
+
+@app.route('/name/<value>')
+def name(value):
+    """parameter"""
+    return "The name you entered: %s" % value
+
+@app.route('/cd')
+def cd():
+    return 'Welcome to the page for testing continuous delivery!'
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
