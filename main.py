@@ -13,7 +13,7 @@ def name(value):
 
 @app.route('/cd')
 def cd():
-    return 'Welcome to the page for testing continuous delivery! Test 1.'
+    return 'Welcome to the page for testing continuous delivery! Test 2.'
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
